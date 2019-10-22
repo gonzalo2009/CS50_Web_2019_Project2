@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Channel
+{% endblock %}
+
+{% block body %}
+
+<div class="col-xl-3"></div>
+    <div class="col-xl-6 container2">
+        <h1 id="channel_name_h1" data-channel_index="{{ channel_index }}">Channel: {{ channel }}</h1>
+        <div id="container_messages">
+        </div>
+        <h3>send a text message:</h3>
+        <form  method="GET" id="form_message">
+            <textarea id="message_text"></textarea>      
+                <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+<div class="col-xl-3"></div>
+{% endblock %}
