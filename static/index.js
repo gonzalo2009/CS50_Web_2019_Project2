@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector("#form_name").onsubmit = () => {
             name = document.querySelector("#name").value;
             socket.emit("submit name", { name: name, current_name: localStorage.getItem("name")});
+            return false;
         };
     };
 
