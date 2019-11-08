@@ -30,4 +30,6 @@ It consists in that every user can delete their owns messages. You can delete yo
 
 
 Additional information:
-To go to the page home or channel you must to click the buttons which are on the upper left corner of the page. When you set the name it will be displayed on the upper right corner of the page.   
+To go to the page home or channel you must to click the buttons which are on the upper left corner of the page. When you set the name it will be displayed on the upper right corner of the page.
+
+To start the applicatiion you should run the command python3 application.py.
