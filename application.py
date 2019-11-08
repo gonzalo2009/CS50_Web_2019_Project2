@@ -125,10 +125,6 @@ def clear_name():
     if len(names_list) == 0:
         emit("remove storage name")
     
+
 if __name__ == "__main__":
     socketio.run(app)
-
-
-
-
- 
